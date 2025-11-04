@@ -5,7 +5,7 @@
 
 **Kaggle Name** Zeyu Dong
 
-**Final Grade**0.50375(Private)
+**Final Grade** 0.50375(Private)
 
 **Goal:** Predict music review scores (1–5) using multimodal features and classical machine learning models (no boosting allowed).
 
