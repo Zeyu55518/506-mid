@@ -13,7 +13,7 @@
 
 ##  1. Data Exploration
 
-The dataset contains **Amazon Music Reviews**, including:
+The dataset contains **Music Reviews**, including:
 
 - **Text fields:** `summary`, `reviewText`  
 - **Categorical field:** `genres`  
