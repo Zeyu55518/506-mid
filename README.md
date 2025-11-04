@@ -318,9 +318,9 @@ submission.to_csv("submission_f.csv", index=False)
 
 | Model | Input | Macro-F1 | Accuracy |
 |--------|--------|-----------|-----------|
-| Base LR | TF-IDF + dense + genre | 0.4928 | 0.589 |
-| LR + CNB Stacking | Prob. Fusion | 0.4961 | 0.59 |
-| + Bias Optimization | + Log-bias Calibration | **0.5011** | ~0.60 |
+| Base LR | TF-IDF + dense + genre | 0.4958 | 0.589 |
+| LR + CNB Stacking | Prob. Fusion | 0.4991 | 0.59 |
+| + Bias Optimization | + Log-bias Calibration | **0.5041** | ~0.60 |
 
 ---
 
