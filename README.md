@@ -324,14 +324,5 @@ submission.to_csv("submission_f.csv", index=False)
 
 ---
 
-##  7. Future Work
-
-- Replace CNB with **SMOTE-balanced Logistic Regression** for better class balancing  
-- Experiment with **class-conditional scaling**  
-- Explore **isotonic regression** for probability calibration  
-- Incorporate **domain-specific embeddings (e.g. word2vec)**  
-- Extend to **deep prompt-based models (T5)** once allowed  
-
----
 
 
