@@ -213,7 +213,7 @@ lr.fit(Xtr_f, y_tr)
 ```
 - Handles multimodal sparse data efficiently  
 - Regularized for class balance (`balanced` weighting)  
-- **Macro-F1:** 0.4928
+- **Macro-F1:** 0.4958
 
 ---
 
@@ -250,7 +250,7 @@ meta = LogisticRegression(C=0.2, solver="lbfgs",
 meta.fit(Xtr_stack, y_tr)
 ```
 
- **Stacked F1:** 0.4961  
+ **Stacked F1:** 0.4991  
 The meta-learner slightly improves balance between overconfident and underrepresented classes.
 
 ---
