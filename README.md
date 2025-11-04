@@ -36,6 +36,8 @@ X_tr, X_va, y_tr, y_va = train_test_split(
     labeled, labeled["Score"].astype(int),
     test_size=0.2, random_state=42, stratify=labeled["Score"]
 )
+---
+
 ##  2. Feature Extraction / Engineering
 
 This project integrates **three modalities** of features:  
