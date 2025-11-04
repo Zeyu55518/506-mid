@@ -284,7 +284,7 @@ results = Parallel(n_jobs=32, backend="loky", verbose=10)(
 best_f1, best_B = max(results, key=lambda x: x[0])
 ```
 
- **Best Macro-F1 = 0.5011**  
+ **Best Macro-F1 = 0.5041**  
  **Best Bias:** `[-0.3, -0.25, 0.3, 0.3, 0.3]`
 
 ---
